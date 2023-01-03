@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>    
+<script src="authentication.js"></script>
+<body>
+<link >
+    
+
+    <div class="main-login">
+        
+        <!--Textinho-->
+        <div class="esquerda-login">
+            <h1>Recupere sua senha!<br></h1>
+            <h3>Preencha o formulário com suas informações!</h3>
+            <div>
+                
+            </div>
+        </div>
+        
+        <!--Lado direto : parte onde o user insere o email-->
+        <div class="direita-login">
+            <div>
+                <div class="campo-de-texto">
+                    <h1>Recupere sua Senha!</h1>
+                    <div>
+                    
+                    <i class="fa fa-envelope icon"></i>
+                    <!--Campo onde inserer o email-->
+                    <input class="input-email" type="text" name="email" placeholder="E-mail" id="Email">
+                    
+                </div>
+                
+                <div>
+                    <!--Chama a função de recuperacao de senha-->
+                    <button type="button" class="login" id="botaoLogin" onclick="recoverPassword()">Recuperar</button>
+                </div>
+                
+                <!-- Precisa mudar essa fonte para que pareca um pouco mais com o figma -->
+                <p style="color: red;">Ao clicar em “Recuperar”, será  enviado um código <br>de recuperação para o seu E-mail.</p>
+            
+            </div>
+        </div>
+    </div>
+    </div>  
+    <!-- fim do Cadastro -->
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/9.9.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.2/firebase-auth-compat.js"></script>
+<script src="authentication.js"></script>
+<script src="/config.js"></script>
+
+
+</html>

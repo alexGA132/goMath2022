@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+   <script src="/autenticacao/authentication.js"></script>
+   
+   <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" 
+    href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    
+    <h1>Bem-vindo</h1>
+
+    <!--Barra de navegacao-->
+    <div class="vertical-menu">
+        <a href="#" class="active">Dashboard</a>
+        <a href="#">Materiais</a>
+        <a href="/Simulado/simulados.html">Simulado</a>
+        <a href="/SobreNos/sobreNos.html">Sobre Nós</a>
+        <a href="#">Exercícios</a>
+
+        <button id="logout" onclick="logout()">LogOut</button> 
+
+      </div>
+
+   
+</body>
+<script src="https://www.gstatic.com/firebasejs/9.9.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.9.2/firebase-auth-compat.js"></script>
+<script src="/config.js"></script>
+</html>
